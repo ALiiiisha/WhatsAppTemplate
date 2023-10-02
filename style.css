@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  color: white;
+}
+.container {
+  border: 2px solid black;
+  margin: 300px;
+  width: 400px;
+  background-color: rgb(50, 48, 48);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin: 9px 5px;
+}
+h1 {
+  font-weight: 500;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+}
+.icon-container {
+  display: flex;
+  background-color: grey;
+  gap: 50px;
+  height: 40px;
+  color: black;
+  align-items: center;
+  margin: 1px;
+}
+.calls {
+  font-size: 16px;
+  font-weight: 500;
+}
+#chat {
+  border-bottom: 4px solid black;
+  padding: 6px;
+}
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 45px;
+  margin-top: 7px;
+}
+p {
+  font-size: 12px;
+  margin: 4px;
+}
+.first-person {
+  display: flex;
+
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+.person {
+  margin: 10px;
+  width: 250px;
+}
+.time {
+  width: 75px;
+  margin-top: 10px;
+}
+h4 {
+  font-weight: 700;
+}
+
+.second-person {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+.third-person {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+.fourth-person {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+.fifth-person {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+.sixth-person {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+.seven-person {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+.eight-person {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+.first {
+  border: 2px solid green;
+  padding: 3px;
+}
+h5 {
+  font-size: 35px;
+
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.tick {
+  color: steelblue;
+}
+.header-icons {
+  stroke: white;
+  width: 20px;
+  height: 20px;
+}
+.plus-icon {
+  stroke: white;
+  width: 15px;
+  height: 15px;
+  background-color: palevioletred;
+  border-radius: 50px;
+  border: 2px solid black;
+  padding: 13px;
+  box-sizing: content-box;
+}
